@@ -38,13 +38,13 @@ def div(a, b):
 # a -- base
 # b -- divisor
 def exp(a, b):
-	return a ** b
+    return a ** b
 
 # Module function
 # a -- dividend
 # b -- divisor
 def mod(a, b):
-	return a % b
+    return a % b
 
 
 # -------------------------------------------------------- #
@@ -80,9 +80,9 @@ while (True):
             print "Product: ", mult(a, b)
         elif (op == "/"):
             print "Quotient: ", div(a, b)
-		elif (op == "**"):
+        elif (op == "**"):
 			print "exponent: ", exp(a, b)
-		elif (op == "%"):
+        elif (op == "%"):
 			print "Modulus: ", mod(a, b)
         else:
             print "Invalid operation..."
